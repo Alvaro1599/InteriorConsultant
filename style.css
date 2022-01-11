@@ -59,7 +59,7 @@ img {
 
 .navLinksMobile {
   padding: 20px;
-  visibility: visible;
+  visibility: hidden;
   z-index: 4;
   color: #ffffff;
   width: 100%;
@@ -210,11 +210,16 @@ footer {
     justify-content: space-between;
   }
 
+  .navLinksDesktop li {
+    cursor: pointer;
+  }
+
   .hamburger {
     display: none;
   }
 
   .navButton {
+    cursor: pointer;
     width: 120px;
     font-size: 14px;
   }
@@ -222,6 +227,14 @@ footer {
   .Home {
     padding-bottom: 4px;
     border-bottom: 2px solid #ffffff;
+  }
+
+  .navLinksMobile {
+    display: none;
+  }
+
+  .navLinksMobile li {
+    cursor: pointer;
   }
 
   footer {
